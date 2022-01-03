@@ -1,26 +1,26 @@
+/*----img----*/
+img {
+  max-width: 100%;
+}
 /*----Topnav menu-------- */
-.topnav {
-  display: grid;
-  place-content: center;
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: #fff;
-  box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.1);
-  border: 1px solid rgba(0, 0, 0, 0.1);
+@media (min-width: 250px) {
+  header nav ul {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    background-color: lavender;
+    overflow-x: auto;
+    box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .topnav a {
+    color: #222;
+    letter-spacing: 1px;
+    text-decoration-style: none;
+    font-size: 1rem;
+  }
+  .topnav ul {
+    list-style-type: none;
+  }
 }
-.topnav a {
-  padding: 10px;
-  color: #222;
-  letter-spacing: 1px;
-  text-decoration-style: none;
-  font-size: 1rem;
-}
-.topnav li {
-  display: inline-block;
-}
-.topnav ul {
-  list-style-type: none;
-}
+/*----headlines----*/
