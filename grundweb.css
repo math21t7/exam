@@ -1,0 +1,14 @@
+@media (min-width: 700px) {
+  #section_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 2rem;
+    padding: 2rem;
+  }
+}
+
+#section_2 {
+  display: grid;
+  place-content: center;
+}
