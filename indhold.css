@@ -1,0 +1,15 @@
+@media (min-width: 769px) {
+  #section_1 {
+    display: grid;
+    margin: 2rem;
+    padding: 2rem;
+  }
+
+  #section_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2rem;
+    padding: 2rem;
+    gap: 20px;
+  }
+}

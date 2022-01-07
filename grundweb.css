@@ -11,4 +11,6 @@
 #section_2 {
   display: grid;
   place-content: center;
+  margin: 2rem;
+  padding: 2rem;
 }
