@@ -18,8 +18,9 @@
   </head>
   <body>
     <header>
-      <nav class="topnav">
-        <ul>
+      <nav>
+        <div id="menuknap">☰</div>
+        <ul id="topnav1" class="hidden">
           <li><a href="index.html">Forside</a></li>
           <li><a href="grundweb.html">Grundlæggende Web</a></li>
           <li><a href="ux.html">Grundlæggende UX</a></li>
@@ -35,17 +36,28 @@
         <div class="left_col">
           <h3>Minimal Keramik</h3>
           <p>
-            I den første opgave udarbejdede jeg en hjemmeside omhandlende
-            keramik. Min gruppe havde fået tildelt stilen "minimalisme". Jeg
-            inkorporerede stilen ved at vælge billeder der indeholder negative
-            space, hvilket er meget typisk for den minimalistiske stil.
-            Derudover har jeg også arbejdet med at holde en simpel stil i
-            forhold til fonte, da det også er kendetegnende for minimalisme.
-            Hvad lærte jeg? Løsning? Process?
+            I det første tema blev vi introduceret til responsiv webdesign,
+            hvilket vil sige at hjemmesiden tilpasser sig til det device den
+            vises på. Jeg lavede et mock-up af hjemmesiden i Adobe XD, altså en
+            visuel fremstilling af siden. Jeg tog udgangspunkt i mobile-first
+            design, hvilket betyder at man starter med hjemmesidens design til
+            mobilskærm. Det er en god ide at gøre, da mange går på nettet kun
+            via mobilen, og i fremtiden vil flere endnu gøre det samme. Da
+            hjemmesiden skulle laves i VS Code benyttede jeg mediaqueries i CSS
+            til at gøre den responsiv. Man kan på den måde tilpasse et bestemt
+            design og f.eks. sige at grid kolonner kun skal vises ved mindst
+            768px. Hvis skærmen er mindre end 768px, så bliver indholdet f.eks.
+            vist i én lang række. I min løsning måtte jeg benytte flere
+            forskellige mediaqueries igennem processen, da det var meget
+            forskellige hvordan de enkelte sektioner så ud på de forskelligt
+            skærmstørrelser.
           </p>
         </div>
         <div class="right_col">
-          <img src="matheahansen_splashbillede5.jpg" alt="Billede af keramik" />
+          <img
+            src="matheahansen_splashbillede5.webp"
+            alt="Billede af keramik"
+          />
         </div>
       </section>
       <section id="section_2">
@@ -56,5 +68,6 @@
         >
       </section>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
