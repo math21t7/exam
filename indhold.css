@@ -3,6 +3,7 @@
 #section_10 img {
   height: 100%;
 }
+
 @media (min-width: 769px) {
   #section_1 {
     display: grid;
@@ -77,13 +78,15 @@
   #section_12 {
     display: grid;
     gap: 5rem;
-    margin: 2rem;
+    margin: 10rem;
     padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
-  #section_13 {
-    display: grid;
-    place-content: center;
-  }
+}
+#section_13 {
+  display: grid;
+  place-content: center;
 }
 img {
   margin-top: 1rem;

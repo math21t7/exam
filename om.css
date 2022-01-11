@@ -7,10 +7,6 @@
     gap: 20px;
   }
 }
-#section_3 {
-  display: grid;
-  place-self: right;
-}
 
 #section_2 li,
 #section_3 li {

@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
     <link rel="stylesheet" href="animation.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,14 +26,15 @@
           <li><a href="animation.html">Animation</a></li>
           <li><a href="indhold.html">Indhold</a></li>
           <li><a href="om.html">Om Mathea Hansen</a></li>
+          <li><a href="layout.html">Layout</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <h2>Grundlæggende Animation</h2>
+      <h3>Rottejagten</h3>
       <section id="section_1">
         <div class="left_col">
-          <h3>Rottejagten</h3>
           <p>
             I vores tredje tema lavede vi vores eget spil. Mit spil hedder
             "Rottejagten". I spillet er brugeren en kat der skal fange rotterne
@@ -46,15 +48,19 @@
           <img src="start_skaerm.webp" alt="Billede af startskærm" />
         </div>
       </section>
+      <h3>Figurer</h3>
       <section id="section_2">
         <div class="left_col_2">
-          <img src="kat.svg" alt="Billede af kat" />
-          <img src="hund.svg" alt="Billede af hund" />
-          <img src="rotte.svg" alt="Billede af sort rotte" />
-          <img src="rotte_2.svg" alt="Billede af grå rotte" />
+          <div class="top_row">
+            <img src="kat.svg" alt="Billede af kat" />
+            <img src="hund.svg" alt="Billede af hund" />
+          </div>
+          <div class="btm_row">
+            <img src="rotte.svg" alt="Billede af sort rotte" />
+            <img src="rotte_2.svg" alt="Billede af grå rotte" />
+          </div>
         </div>
         <div class="right_col_2">
-          <h3>Figurer</h3>
           <p>
             Noget der i starten satte mig lidt fast var illustrator-programmet.
             Det var første gang jeg benyttede mig af det, så jeg skulle lige
@@ -67,9 +73,9 @@
           </p>
         </div>
       </section>
+      <h3>Statemachine diagram</h3>
       <section id="section_3">
         <div class="left_col_3">
-          <h3>Statemachine diagram</h3>
           <p>
             En af de mest væsentlige dele af opgaven var at vi skulle
             introduceres til javacript. Det benyttede vi til at få spillet til
@@ -87,9 +93,50 @@
           />
         </div>
       </section>
+      <h3>Javascript</h3>
       <section id="section_4">
+        <div class="left_col">
+          <img src="funktion.webp" alt="Screenshot af funktion" />
+        </div>
+        <div class="right_col">
+          <p>
+            Her er et eksempel på en funktion jeg lavede i javascript. Denne
+            funktion beskriver alt det der skal ske når spilleren trykker på en
+            af rotterne i spillet. Da rotten er en god ting at trykke på får
+            spilleren et point, samt starter godForsvind-animationen. Når
+            animationen er slut starter funktionen forfra, og en ny rotte dukker
+            op med ratRepeat-funktionen. Console log skal desuden altid tilføjes
+            til funktionerne, så man kan holde øje med om de fungerer som man
+            ønsker. Det kan man tjekke i konsolen inde på "inspektør" når man
+            har spillet åbnet i en browser.
+          </p>
+        </div>
+      </section>
+      <h3>Animation</h3>
+      <section id="section_5">
         <div class="top_row">
-          <h3>Dokumentationssite</h3>
+          <p>
+            Her ses et eksempel på opbygningen af en animation jeg havde med i
+            mit spil. Det første billede viser hvordan jeg laver en class som
+            indeholder animationen. Den beskriver desuden animationens varighed,
+            hvor mange gange den skal køre, samt har jeg sat animation-fill-mode
+            til forwards, så animationen forbliver i den sidste keyframe. Det
+            næste billede beskriver netop keyframe, hvor jeg fortæller hvad der
+            skal ske i selve animationen. Dette eksempel er en forsvindings
+            animation. Det har jeg valgt at lave ved at gøre figuren mindre
+            indtil den er helt væk. Det gør jeg ved at bruge scale, hvor den ved
+            starten af animationen (0%) er på 1, mens den ved slutningen af
+            animationen (100%) er på 0.
+          </p>
+        </div>
+        <div class="btm_row">
+          <img src="animation1.webp" alt="Screenshot af animation" />
+          <img src="animation2.webp" alt="Screenshot af animation" />
+        </div>
+      </section>
+      <h3>Dokumentationssite</h3>
+      <section id="section_6">
+        <div class="top_row">
           <p>
             Nedenstående link henviser til mit dokumentationssite jeg lavede i
             sammenhæng med mit spil, samt et link til selve spillet.
@@ -103,7 +150,7 @@
           >
           <a
             class="button"
-            href="https://matheahansen.dk/kea/04_animation/spil/index.html"
+            href="https://matheahansen.dk/kea/04_animation/spil/spil.html"
             >Rottejagten spillet</a
           >
         </div>

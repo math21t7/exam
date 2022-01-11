@@ -105,6 +105,10 @@ a {
   font-family: "Open Sans", sans-serif;
   text-decoration: none;
 }
+li {
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
 /*----Buttons-----*/
 .button {
   display: inline-block;

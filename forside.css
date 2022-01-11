@@ -25,7 +25,7 @@
 }
 @media (min-width: 920px) {
   .col:hover {
-    scale: 120%;
+    scale: 1.2;
     transition: scale 1s;
   }
 }
