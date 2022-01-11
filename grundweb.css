@@ -6,9 +6,23 @@
     margin: 2rem;
     padding: 2rem;
   }
-}
 
-#section_2 {
+  #section_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2rem;
+    padding: 2rem;
+    gap: 20px;
+  }
+  #section_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2rem;
+    padding: 2rem;
+    gap: 20px;
+  }
+}
+#section_4 {
   display: grid;
   place-content: center;
   margin: 2rem;

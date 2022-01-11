@@ -29,26 +29,6 @@
     transition: scale 1s;
   }
 }
-/*@media (min-width: 769px) {
-  #forside_skaerm {
-    position: fixed;
-    top: -7%;
-    left: 0%;
-    width: 100%;
-    height: 17%;
-    background-image: url(forside_skaerm.svg);
-  }
-
-  #forside_knap {
-    position: absolute;
-    aspect-ratio: 314/145;
-    top: 330%;
-    left: 43%;
-    width: 16%;
-    background-image: url(forside_knap.svg);
-    background-size: cover;
-  }
-}*/
 
 .hide {
   display: none;
