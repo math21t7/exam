@@ -1,9 +1,19 @@
-/*window.addEventListener("load", sidenVises);
+window.addEventListener("load", sidenVises);
 
 function sidenVises() {
   console.log("sidenVises");
+  //Vis start skærm
+  /*document.querySelector("#forside_skaerm").classList.remove("hide");
+  document
+    .querySelector("#forside_knap")
+    .addEventListener("click", removeScreen);*/
+
   document.querySelector("#menuknap").addEventListener("click", toggleMenu);
 }
+/*
+function removeScreen() {
+  document.querySelector("#forside_skaerm").classList.add("hide");
+}*/
 
 function toggleMenu() {
   console.log("toggleMenu");
@@ -18,24 +28,4 @@ function toggleMenu() {
   } else {
     document.querySelector("#menuknap").textContent = "X";
   }
-}*/
-const btn = document.querySelector("button");
-const ul = document.querySelector("nav");
-
-function toggleMenu() {
-  ul.classList.toggle("shown");
-
-  const menu = ul.classList.contains("shown");
-
-  if (menu) {
-    // hvis ul har klassen "shown"
-    //btn.textContent = "Luk";
-    btn.classList.add("open");
-  } else {
-    // hvis IKKE ul har klassen "shown"
-    //btn.textContent = "Menu";
-    btn.classList.remove("open");
-  }
 }
-
-btn.addEventListener("click", toggleMenu);

@@ -1,0 +1,19 @@
+@media (min-width: 700px) {
+  #section_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2rem;
+    padding: 2rem;
+    gap: 20px;
+  }
+}
+#section_3 {
+  display: grid;
+  place-self: right;
+}
+
+#section_2 li,
+#section_3 li {
+  line-height: 35px;
+  list-style-type: square;
+}
